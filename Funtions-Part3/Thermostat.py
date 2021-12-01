@@ -8,7 +8,7 @@ def temperature_color(temp):
         return "purple"
     if temp >= 50:
         return "red"
-    return "green"
+    return "yellow"
 
 def draw_temperature(temp):
     t = turtle.Turtle()
